@@ -2,5 +2,6 @@
 /.ipynb_checkpoints
 /__pycache__
 /dataset
-/weights
+weights/model_weights.pth
 /pix2pixGAN.ipynb
+/components\__pycache__
