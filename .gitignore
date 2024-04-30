@@ -1,6 +1,8 @@
 /cat_3.jpg
 /.ipynb_checkpoints
 /__pycache__
-/dataset
+dataset/test
+dataset/train
+dataset/validation
 weights/model_weights.pth
-/components\__pycache__
+/components/__pycache__
