@@ -44,6 +44,7 @@ class ImageColorizer:
 
         plt.imshow(color_image_predicted)
         plt.axis("off")
+        plt.show()
 
         if self.save_image:
             plt.savefig(self.image_path.split(".")[0] + "_predicted.png")
