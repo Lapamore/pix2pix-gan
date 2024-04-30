@@ -14,14 +14,14 @@
     * save_image (bool) - Флаг для сохранения изображения.
 
 ```bash
-python3 --image_path ВАШ_ПУТЬ_К_ФОТО --device cuda save_image False
+python3 main.py --image_path ВАШ_ПУТЬ_К_ФОТО --device cuda --save_image False
 ```
 Примечание: В данный момент реализация работает только с использованием CUDA. Пожалуйста, убедитесь, что у вас установлен фреймворк [PyTorch](https://pytorch.org/) с поддержкой CUDA. Вы можете проверить доступность CUDA с помощью следующего кода:
 
 ```python
 import torch 
 
-torch.cuda.is_available() # # Вернет значение True или False
+torch.cuda.is_available() # Вернет значение True или False
 ```
 Если этот код возвращает `True`, то CUDA доступен на вашем устройстве.
 
