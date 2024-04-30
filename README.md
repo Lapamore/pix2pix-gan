@@ -170,7 +170,7 @@ def training_loop(model, train_loader, num_epochs):
         print(f"[{epoch+1}/{num_epochs}]: Complite!")
 ```
 
-### Визуализация время обучения
+### Визуализация во время обучения
 ![epoch](images/train.png)
 
 ## Итоговый инференс
