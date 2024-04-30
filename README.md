@@ -1,5 +1,4 @@
 # Раскрашивание черно-белых изображений на основе сети pix2pix
-![colab](https://drive.google.com/file/d/1XG9yq5OmEIbFp77FnRghtZKmok_TGzKf/view?usp=sharing)
 **Colorizer** - нейронная модель на основе генеративно-состязательной сети pix2pix, которая позволяет раскрашивать черно-белое изображение в цветное.
 
 ![inference](images/test.png)
