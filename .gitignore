@@ -3,5 +3,4 @@
 /__pycache__
 /dataset
 weights/model_weights.pth
-/pix2pixGAN.ipynb
 /components\__pycache__
