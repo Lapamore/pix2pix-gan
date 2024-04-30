@@ -15,7 +15,7 @@ class ImageColorizer:
 
     def load_model(self):
         self.model = Model(self.device).to(self.device)
-        self.model = self.model.load_state_dict(torch.load("weights/model_weights.pth"))
+        self.model.load_state_dict(torch.load("weights/model_weights.pth"))
 
     def lab_to_rgb(self, L, fake_ab):
         L = (L + 1.0) * 50.0
@@ -32,7 +32,7 @@ class ImageColorizer:
         image_lab = color.rgb2lab(image_numpy).astype("float32")
         image_tensor = transforms.ToTensor()(image_lab).to(self.device)
         L = image_tensor[[0], ...] / 50.0 - 1.0
-
+        
         self.model.generator_net.eval()
         with torch.no_grad():
             self.model.L = L.unsqueeze(0)

@@ -1,6 +1,8 @@
 import argparse
 from inference import ImageColorizer
+import os
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True' # Временное решение
 
 def main():
     parser = argparse.ArgumentParser(description="Раскраска черно-белого изображения.")
