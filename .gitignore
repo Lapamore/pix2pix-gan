@@ -6,3 +6,7 @@ dataset/train
 dataset/validation
 weights/model_weights.pth
 /components/__pycache__
+components/__pycache__/up_block.cpython-311.pyc
+components/__pycache__/patch_discriminator.cpython-311.pyc
+components/__pycache__/generator_net.cpython-311.pyc
+components/__pycache__/down_block.cpython-311.pyc
