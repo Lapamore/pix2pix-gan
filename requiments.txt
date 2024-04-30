@@ -1,0 +1,5 @@
+torch
+PIL
+numpy
+matplotlib
+scikit-image
